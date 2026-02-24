@@ -1,75 +1,127 @@
 
 
-# 🔐 Landing Page Serrurier d'Urgence — Plan de Réalisation
+# Refonte complète des sections (hors Hero) + FAQ
 
-## Direction Artistique
-- **Palette** : Bleu nuit profond (#0F172A) + blanc pur + accents dorés/ambrés pour évoquer sécurité et premium
-- **Ambiance** : Dark mode élégant, contrastes forts, typographie bold et moderne
-- **Bouton d'appel** : Gradient subtil ambre/doré, lumineux sans être agressif, avec micro-animation pulse
-- **Icônes** : Lucide React avec style cohérent, taille généreuse, encadrées dans des cercles avec fond subtil
+## Vue d'ensemble
 
-## Animations (GSAP)
-- Apparition progressive des sections au scroll (fade-in + léger slide up)
-- Cartes services avec hover lift + glow subtil
-- Bouton d'appel avec animation pulse douce permanente
-- Compteur animé pour les étapes du process
-- Transitions fluides entre blocs, parallax léger sur le hero
+Le Hero reste intact. Toutes les autres sections passent sur fond blanc avec une nouvelle palette claire, des cartes en bleu navy profond, et une section FAQ est ajoutee en bas. Le design sera nettement plus premium et different.
 
-## Structure des Sections
+## 1. Nouvelle palette de couleurs (index.css)
 
-### 1. 🎯 Hero Section — Plein écran, impact maximal
-- Fond sombre avec motif géométrique subtil (CSS)
-- Titre XXL : **"Serrurier d'Urgence — Intervention Rapide"**
-- Sous-titre : "24h/24 • 7j/7 • Intervention en 30 min"
-- Numéro **03 74 47 47 93** affiché en très grand
-- Bouton CTA "📞 Appeler Maintenant" proéminent avec lien `tel:`
-- Badge "Devis gratuit • Sans surprise"
+Passer d'un theme full dark a un theme hybride :
+- Le Hero garde son fond sombre (dark navy)
+- Toutes les sections suivantes utilisent un fond blanc (`#FFFFFF`) avec du texte sombre (`#0F172A`)
+- Les cartes utilisent un fond bleu navy profond (`#0F172A` / `#1E293B`) avec texte blanc
+- Les accents gold/ambre restent pour les elements d'action (boutons CTA, icones)
+- Ajout de variables CSS pour le mode "light sections" : `--section-bg`, `--section-fg`, `--card-navy`, etc.
 
-### 2. 📌 Barre Sticky (mobile-first)
-- Fixée en bas sur mobile, en haut sur desktop
-- Numéro cliquable toujours visible
-- Design compact et élégant
+Les classes CSS mises a jour :
+- `.glass-card` remplacee par une nouvelle classe `.navy-card` (fond bleu navy, coins arrondis, ombre portee douce)
+- `.text-gradient-gold` reste pour les titres accentues
+- Nouveau `.section-light` pour les sections a fond blanc
+- Nouvelle ombre premium : `shadow-[0_4px_30px_rgba(15,23,42,0.08)]`
 
-### 3. ✅ Bloc de Confiance — 4 piliers
-- **Intervention < 30 min** — icône chronomètre
-- **Tarifs transparents** — icône devis
-- **Agréé assurance** — icône bouclier
-- **Disponible 24/7** — icône horloge
-- Cartes avec fond glass-morphism, icônes premium
+## 2. Section Confiance — refonte visuelle
 
-### 4. 🔧 Services Principaux — 4 cartes animées
-- Ouverture de porte claquée/fermée
-- Changement & installation de serrure
-- Sécurisation après effraction
-- Porte blindée & serrure renforcée
-- Chaque carte : icône, titre, description courte, bouton appel
-- Animation hover avec élévation et glow
+- Fond blanc, texte sombre
+- Les 4 cartes passent en fond bleu navy avec texte blanc et icones gold
+- Layout : grille 4 colonnes, cartes avec bordure arrondie plus prononcee (`rounded-2xl`)
+- Icones dans des cercles gold/ambre au lieu de fond transparent
+- Hover : legere elevation + ombre plus prononcee (pas de glow gold)
+- Titres en blanc, descriptions en gris clair (`text-slate-300`)
 
-### 5. 📋 Process en 3 Étapes
-- **1.** Vous appelez → **2.** On intervient rapidement → **3.** Problème résolu
-- Design en timeline horizontale (verticale sur mobile)
-- Numéros animés, lignes de connexion entre étapes
-- Simple, rassurant, visuel
+## 3. Section Services — refonte complete
 
-### 6. 📍 Zone d'Intervention
-- Mise en avant de la disponibilité géographique
-- Mention "Nous intervenons près de chez vous"
-- Texte rassurant sur la proximité et la réactivité
+- Fond blanc
+- Les 4 services passent en cartes individuelles pleine largeur en 2x2 grid
+- Chaque carte : fond navy, icone dans un cercle gradient gold a gauche, texte blanc a droite
+- Sous chaque description, un lien "Appeler" avec fleche, en couleur gold
+- Hover : translation Y + ombre plus large
+- Les icones sont plus grandes (w-10 h-10) dans des cercles de 60px
 
-### 7. 🚀 CTA Final Fort
-- Fond contrasté, section pleine largeur
-- "Une urgence ? Appelez maintenant."
-- Numéro en très grand + bouton d'appel
-- Rappel : intervention rapide, devis gratuit
+## 4. Section Process — refonte en timeline
 
-### 8. Footer Minimaliste
-- Mentions légales, horaires, numéro
-- Design sobre et professionnel
+- Fond blanc
+- Les numeros dans des cercles gold restent mais sont plus grands (w-20 h-20, texte 3xl)
+- Le connecteur entre les etapes devient une ligne pointillee gold
+- Sous chaque numero, le titre et la description sont dans une carte navy compacte (`rounded-xl`, padding reduit)
+- Texte blanc dans les cartes
 
-## Exigences Techniques
-- **Mobile-first** : tout est optimisé pour le clic téléphone sur mobile
-- **Performance** : pas d'images lourdes, CSS/SVG pour les visuels
-- **GSAP** : animations au scroll, micro-interactions
-- **Accessibilité** : contrastes AAA, liens `tel:` partout
-- **One-page** : navigation fluide par ancres
+## 5. Section Zone d'intervention — refonte
+
+- Fond blanc
+- La carte principale passe en fond navy avec texte blanc
+- L'icone MapPin passe dans un cercle gradient gold
+- Le lien CTA en bas devient un vrai bouton gold arrondi au lieu d'un simple lien texte
+- Ajout d'une liste de 3-4 avantages avec des check icons
+
+## 6. Section CTA Final — refonte
+
+- Fond navy plein (`bg-[#0F172A]`) au lieu du fond avec opacite
+- Texte blanc, titre en gradient gold
+- Le bloc telephone reste en gradient gold avec pulse
+- Ajout de 3 badges en dessous (Devis gratuit, Intervention rapide, 24h/24)
+
+## 7. Nouvelle section FAQ (Accordion)
+
+- Positionnee entre la Zone d'intervention et le CTA final
+- Fond blanc, titre avec accent gold
+- 6-8 questions frequentes pertinentes :
+  - "Combien coute une ouverture de porte ?"
+  - "En combien de temps intervenez-vous ?"
+  - "Intervenez-vous la nuit et le week-end ?"
+  - "Faut-il un devis avant l'intervention ?"
+  - "Etes-vous agree par les assurances ?"
+  - "Quelles marques de serrures installez-vous ?"
+  - "Que faire en cas d'effraction ?"
+  - "Votre intervention est-elle garantie ?"
+- Utilisation du composant Accordion de shadcn/ui deja installe
+- Chaque item : fond navy au repos, s'ouvre avec animation douce
+- Icone ChevronDown gold pour l'ouverture/fermeture
+
+## 8. Footer — mise a jour
+
+- Fond navy (`bg-[#0F172A]`)
+- Texte en gris clair/blanc
+- Le numero reste en gold
+- Ajout de liens : Mentions legales, Politique de confidentialite (texte seulement, pas de pages)
+
+## 9. Animations GSAP — mises a jour
+
+- Les animations restent identiques dans leur logique (scroll trigger, stagger)
+- Ajout d'un ref pour la section FAQ avec animation d'entree
+- Les cartes navy auront un hover CSS pur (translate + shadow) sans GSAP pour la performance
+
+## 10. Sticky Bar — mise a jour legere
+
+- Reste en gradient gold
+- Aucun changement majeur, fonctionne deja bien
+
+## Fichiers modifies
+
+1. **src/index.css** — Nouvelles variables CSS pour le mode clair des sections, nouvelles classes utilitaires (`.navy-card`, etc.), mise a jour de `.glass-card`
+2. **src/pages/Index.tsx** — Refonte complete des sections Trust, Services, Process, Zone, CTA + ajout FAQ + import Accordion
+3. **tailwind.config.ts** — Aucun changement necessaire (les couleurs customs suffisent via CSS)
+
+## Resume visuel
+
+```text
++------------------------------------------+
+|           HERO (dark navy, inchange)     |
++------------------------------------------+
+|     CONFIANCE (fond blanc, cartes navy)  |
++------------------------------------------+
+|      SERVICES (fond blanc, cartes navy)  |
++------------------------------------------+
+|      PROCESS (fond blanc, cercles gold)  |
++------------------------------------------+
+|        ZONE (fond blanc, carte navy)     |
++------------------------------------------+
+|          FAQ (fond blanc, accordion)     |
++------------------------------------------+
+|         CTA FINAL (fond navy, gold)      |
++------------------------------------------+
+|          FOOTER (fond navy)              |
++------------------------------------------+
+```
 
