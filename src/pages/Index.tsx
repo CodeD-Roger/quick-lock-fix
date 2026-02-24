@@ -149,7 +149,7 @@ const Index = () => {
       <section ref={heroRef} className="hero-pattern geometric-pattern min-h-screen flex items-center justify-center relative pt-0 md:pt-14 pb-20 md:pb-0">
         <div className="container max-w-4xl mx-auto px-4 text-center">
           <div className="hero-anim inline-flex items-center gap-2 bg-secondary/60 backdrop-blur-sm border border-border/50 rounded-full px-4 py-1.5 mb-8">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             <span className="text-sm text-muted-foreground font-medium">Disponible maintenant — 24h/24 • 7j/7</span>
           </div>
 
