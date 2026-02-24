@@ -52,6 +52,13 @@
     --navy: 222 47% 6%;
     --navy-light: 222 30% 14%;
     --glass: 222 30% 14%;
+
+    /* Light section tokens */
+    --section-bg: 0 0% 100%;
+    --section-fg: 222 47% 11%;
+    --section-muted: 215 16% 47%;
+    --card-navy: 222 47% 11%;
+    --card-navy-light: 217 33% 17%;
   }
 }
 
@@ -73,6 +80,28 @@
 @layer components {
   .glass-card {
     @apply bg-secondary/50 backdrop-blur-md border border-border/50 rounded-xl;
+  }
+
+  .navy-card {
+    background: hsl(var(--card-navy));
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(15, 23, 42, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .navy-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(15, 23, 42, 0.18);
+  }
+
+  .section-light {
+    background: hsl(var(--section-bg));
+    color: hsl(var(--section-fg));
+  }
+
+  .section-light-alt {
+    background: hsl(0 0% 97%);
+    color: hsl(var(--section-fg));
   }
 
   .glow-gold {
