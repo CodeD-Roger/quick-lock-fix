@@ -21,6 +21,7 @@ import {
   Zap,
   HeadphonesIcon,
 } from "lucide-react";
+import logoAlbert from "@/assets/logo-albert.jpg";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -175,8 +176,9 @@ const Index = () => {
       <div className="fixed bottom-0 left-0 right-0 z-50 md:top-0 md:bottom-auto">
         <div className="gradient-gold px-4 py-3 flex items-center justify-between md:justify-center gap-3">
           <div className="flex items-center gap-2 text-primary-foreground font-display font-bold text-sm md:text-base">
-            <Phone className="w-4 h-4" />
-            <span className="hidden md:inline">Urgence Serrurier —</span>
+            <img src={logoAlbert} alt="Albert Serrurerie" className="h-7 w-auto hidden md:block" />
+            <Phone className="w-4 h-4 md:hidden" />
+            <span className="hidden md:inline">—</span>
             <a href={PHONE_LINK} className="underline decoration-2 underline-offset-2 tracking-wide">
               {PHONE}
             </a>
@@ -201,14 +203,18 @@ const Index = () => {
             <span className="text-sm text-muted-foreground font-medium">Disponible maintenant — 24h/24 • 7j/7</span>
           </div>
 
+          <div className="hero-anim mb-6">
+            <img src={logoAlbert} alt="Albert Serrurerie" className="h-24 md:h-32 w-auto mx-auto" />
+          </div>
+
           <h1 className="hero-anim font-display text-4xl sm:text-5xl md:text-7xl font-bold leading-tight mb-6">
-            Serrurier d'Urgence
+            Votre Serrurier
             <br />
-            <span className="text-gradient-gold">Intervention Rapide</span>
+            <span className="text-gradient-gold">d'Urgence 24h/24</span>
           </h1>
 
           <p className="hero-anim text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            Porte claquée, serrure cassée, effraction ? Notre équipe de serruriers qualifiés intervient
+            Porte claquée, serrure cassée, effraction ? <strong className="text-foreground">Albert Serrurerie</strong> intervient
             en <strong className="text-foreground">moins de 30 minutes</strong>, partout et à tout moment.
           </p>
 
@@ -436,8 +442,7 @@ const Index = () => {
           <div className="container max-w-6xl mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-sm">
               <div className="flex items-center gap-2">
-                <Lock className="w-4 h-4 text-gold-light" />
-                <span className="font-display font-bold text-white">Serrurier d'Urgence</span>
+                <img src={logoAlbert} alt="Albert Serrurerie" className="h-8 w-auto" />
               </div>
               <div className="flex flex-wrap items-center justify-center gap-4 text-slate-400">
                 <span>24h/24 • 7j/7</span>
@@ -451,7 +456,7 @@ const Index = () => {
               </div>
             </div>
             <p className="text-xs text-slate-600 text-center mt-6">
-              © {new Date().getFullYear()} Serrurier d'Urgence — Tous droits réservés
+              © {new Date().getFullYear()} Albert Serrurerie — Tous droits réservés
             </p>
           </div>
         </div>
