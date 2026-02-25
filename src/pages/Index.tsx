@@ -38,6 +38,10 @@ import logoVachette from "@/assets/partners/vachette.jpg";
 import logoAbus from "@/assets/partners/abus.jpg";
 import logoFichet from "@/assets/partners/fichet.png";
 import logoMultlock from "@/assets/partners/multlock.png";
+import logoAssa from "@/assets/partners/assa.jpg";
+import logoIllico from "@/assets/partners/illico.png";
+import logoDormakaba from "@/assets/partners/dormakaba.png";
+import logoIseo from "@/assets/partners/iseo.png";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -319,6 +323,10 @@ const Index = () => {
                   { src: logoAbus, alt: "ABUS" },
                   { src: logoFichet, alt: "Fichet" },
                   { src: logoMultlock, alt: "Mul-T-Lock" },
+                  { src: logoAssa, alt: "ASSA ABLOY" },
+                  { src: logoIllico, alt: "Illico Serrurier" },
+                  { src: logoDormakaba, alt: "Dormakaba" },
+                  { src: logoIseo, alt: "ISEO" },
                 ].map((brand) => (
                   <div
                     key={`${setIdx}-${brand.alt}`}
