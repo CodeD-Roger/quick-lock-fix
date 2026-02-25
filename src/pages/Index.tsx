@@ -26,6 +26,8 @@ import logoAllianz from "@/assets/partners/allianz.png";
 import logoCreditMutuel from "@/assets/partners/credit-mutuel.png";
 import logoAxa from "@/assets/partners/axa.png";
 import logoGroupama from "@/assets/partners/groupama.png";
+import logoMma from "@/assets/partners/mma.png";
+import logoMaif from "@/assets/partners/maif.webp";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -295,6 +297,8 @@ const Index = () => {
                   { src: logoCreditMutuel, alt: "Crédit Mutuel" },
                   { src: logoAxa, alt: "AXA" },
                   { src: logoGroupama, alt: "Groupama" },
+                  { src: logoMma, alt: "MMA" },
+                  { src: logoMaif, alt: "MAIF" },
                 ].map((brand) => (
                   <div
                     key={`${setIdx}-${brand.alt}`}
