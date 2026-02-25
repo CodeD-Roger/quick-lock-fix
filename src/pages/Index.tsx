@@ -272,6 +272,36 @@ const Index = () => {
         </div>
       </section>
 
+      {/* ─── PARTNERS MARQUEE ─── */}
+      <section className="section-light py-14 md:py-16 overflow-hidden">
+        <div className="container max-w-6xl mx-auto px-4 mb-8">
+          <p className="text-center text-sm font-semibold tracking-widest uppercase" style={{ color: 'hsl(var(--section-muted))' }}>
+            Nos marques <span className="text-gradient-gold">partenaires</span>
+          </p>
+        </div>
+        <div className="relative">
+          {/* Fade edges */}
+          <div className="absolute inset-y-0 left-0 w-24 md:w-40 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+          <div className="absolute inset-y-0 right-0 w-24 md:w-40 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
+          <div className="marquee-track">
+            {[...Array(2)].map((_, setIdx) => (
+              <div key={setIdx} className="flex items-center gap-16 px-8">
+                {["Fichet", "Vachette", "Bricard", "Mul-T-Lock", "Mottura", "Picard", "Pollux", "Deny"].map((brand) => (
+                  <div
+                    key={`${setIdx}-${brand}`}
+                    className="flex items-center justify-center h-14 px-6 rounded-xl bg-gray-50 border border-gray-100 min-w-[140px] select-none"
+                  >
+                    <span className="font-display font-bold text-base tracking-wide" style={{ color: 'hsl(var(--card-navy))' }}>
+                      {brand}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── SERVICES SECTION ─── */}
       <section ref={servicesRef} className="section-light-alt py-20 md:py-28">
         <div className="container max-w-6xl mx-auto px-4">
