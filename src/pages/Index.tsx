@@ -22,6 +22,10 @@ import {
   HeadphonesIcon,
 } from "lucide-react";
 import logoAlbert from "@/assets/logo-albert.jpg";
+import logoAllianz from "@/assets/partners/allianz.png";
+import logoCreditMutuel from "@/assets/partners/credit-mutuel.png";
+import logoAxa from "@/assets/partners/axa.png";
+import logoGroupama from "@/assets/partners/groupama.png";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -286,14 +290,17 @@ const Index = () => {
           <div className="marquee-track">
             {[...Array(2)].map((_, setIdx) => (
               <div key={setIdx} className="flex items-center gap-16 px-8">
-                {["Fichet", "Vachette", "Bricard", "Mul-T-Lock", "Mottura", "Picard", "Pollux", "Deny"].map((brand) => (
+                {[
+                  { src: logoAllianz, alt: "Allianz" },
+                  { src: logoCreditMutuel, alt: "Crédit Mutuel" },
+                  { src: logoAxa, alt: "AXA" },
+                  { src: logoGroupama, alt: "Groupama" },
+                ].map((brand) => (
                   <div
-                    key={`${setIdx}-${brand}`}
-                    className="flex items-center justify-center h-14 px-6 rounded-xl bg-gray-50 border border-gray-100 min-w-[140px] select-none"
+                    key={`${setIdx}-${brand.alt}`}
+                    className="flex items-center justify-center h-16 px-6 min-w-[160px] select-none"
                   >
-                    <span className="font-display font-bold text-base tracking-wide" style={{ color: 'hsl(var(--card-navy))' }}>
-                      {brand}
-                    </span>
+                    <img src={brand.src} alt={brand.alt} className="h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100" />
                   </div>
                 ))}
               </div>
