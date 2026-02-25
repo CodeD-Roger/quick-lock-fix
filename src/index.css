@@ -148,4 +148,20 @@
   .animate-pulse-gold {
     animation: pulse-gold 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
+
+  /* Infinite scroll marquee */
+  @keyframes marquee-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee-scroll 30s linear infinite;
+  }
+
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
 }
