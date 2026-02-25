@@ -28,6 +28,16 @@ import logoAxa from "@/assets/partners/axa.png";
 import logoGroupama from "@/assets/partners/groupama.png";
 import logoMma from "@/assets/partners/mma.png";
 import logoMaif from "@/assets/partners/maif.webp";
+import logoSchlage from "@/assets/partners/schlage.png";
+import logoLaperche from "@/assets/partners/laperche.png";
+import logoEvva from "@/assets/partners/evva.png";
+import logoMedeco from "@/assets/partners/medeco.png";
+import logoCisa from "@/assets/partners/cisa.png";
+import logoYale from "@/assets/partners/yale.jpg";
+import logoVachette from "@/assets/partners/vachette.jpg";
+import logoAbus from "@/assets/partners/abus.jpg";
+import logoFichet from "@/assets/partners/fichet.png";
+import logoMultlock from "@/assets/partners/multlock.png";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -299,12 +309,22 @@ const Index = () => {
                   { src: logoGroupama, alt: "Groupama" },
                   { src: logoMma, alt: "MMA" },
                   { src: logoMaif, alt: "MAIF" },
+                  { src: logoSchlage, alt: "Schlage" },
+                  { src: logoLaperche, alt: "Laperche" },
+                  { src: logoEvva, alt: "EVVA" },
+                  { src: logoMedeco, alt: "Medeco" },
+                  { src: logoCisa, alt: "CISA" },
+                  { src: logoYale, alt: "Yale" },
+                  { src: logoVachette, alt: "Vachette" },
+                  { src: logoAbus, alt: "ABUS" },
+                  { src: logoFichet, alt: "Fichet" },
+                  { src: logoMultlock, alt: "Mul-T-Lock" },
                 ].map((brand) => (
                   <div
                     key={`${setIdx}-${brand.alt}`}
                     className="flex items-center justify-center h-16 px-6 min-w-[160px] select-none"
                   >
-                    <img src={brand.src} alt={brand.alt} className="h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100" />
+                    <img src={brand.src} alt={brand.alt} className="h-12 w-auto object-contain transition-all duration-300 opacity-80 hover:opacity-100" />
                   </div>
                 ))}
               </div>
