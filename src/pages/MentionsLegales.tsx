@@ -140,9 +140,6 @@ const MentionsLegales = () => {
           </p>
         </section>
 
-        <p className="text-xs text-slate-600 text-center mt-12">
-          Dernière mise à jour : février 2025
-        </p>
       </div>
     </div>
   );
