@@ -25,8 +25,6 @@ const MentionsLegales = () => {
             <li><strong className="text-white">Forme juridique :</strong> EURL (Entreprise Unipersonnelle à Responsabilité Limitée)</li>
             
             <li><strong className="text-white">SIRET :</strong> 992 115 154 00013</li>
-            <li><strong className="text-white">SIREN :</strong> 992 115 154</li>
-            <li><strong className="text-white">N° TVA intracommunautaire :</strong> FR93992115154</li>
             <li><strong className="text-white">Adresse :</strong> 20 B Impasse Edgar Quinet, 93120 La Courneuve</li>
             <li><strong className="text-white">Téléphone :</strong> 03 74 47 47 93</li>
             <li><strong className="text-white">Email :</strong> contact@serruritas.fr</li>
