@@ -519,9 +519,9 @@ const Index = () => {
                 <a href={PHONE_LINK} className="text-gold-light font-semibold hover:underline">{PHONE}</a>
               </div>
               <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-500">
-                <span>Mentions légales</span>
+                <a href="/mentions-legales" className="hover:text-slate-300 transition-colors">Mentions légales</a>
                 <span>•</span>
-                <span>Politique de confidentialité</span>
+                <a href="/mentions-legales#rgpd" className="hover:text-slate-300 transition-colors">Politique de confidentialité</a>
               </div>
             </div>
             <p className="text-xs text-slate-600 text-center mt-6">
