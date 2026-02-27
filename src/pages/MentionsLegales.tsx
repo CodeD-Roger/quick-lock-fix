@@ -23,7 +23,7 @@ const MentionsLegales = () => {
           <ul className="space-y-2 text-slate-300 text-sm leading-relaxed">
             <li><strong className="text-white">Nom :</strong> SERRURITAS</li>
             <li><strong className="text-white">Forme juridique :</strong> EURL (Entreprise Unipersonnelle à Responsabilité Limitée)</li>
-            <li><strong className="text-white">Capital social :</strong> 1 000,00 €</li>
+            
             <li><strong className="text-white">SIRET :</strong> 992 115 154 00013</li>
             <li><strong className="text-white">SIREN :</strong> 992 115 154</li>
             <li><strong className="text-white">N° TVA intracommunautaire :</strong> FR93992115154</li>
