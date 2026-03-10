@@ -22,26 +22,6 @@ import {
   HeadphonesIcon,
 } from "lucide-react";
 import logoAlbert from "@/assets/logo-albert.jpg";
-import logoAllianz from "@/assets/partners/allianz.png";
-import logoCreditMutuel from "@/assets/partners/credit-mutuel.png";
-import logoAxa from "@/assets/partners/axa.png";
-import logoGroupama from "@/assets/partners/groupama.png";
-import logoMma from "@/assets/partners/mma.png";
-import logoMaif from "@/assets/partners/maif.webp";
-import logoSchlage from "@/assets/partners/schlage.png";
-import logoLaperche from "@/assets/partners/laperche.png";
-import logoEvva from "@/assets/partners/evva.png";
-import logoMedeco from "@/assets/partners/medeco.png";
-import logoCisa from "@/assets/partners/cisa.png";
-import logoYale from "@/assets/partners/yale.jpg";
-import logoVachette from "@/assets/partners/vachette.jpg";
-import logoAbus from "@/assets/partners/abus.jpg";
-import logoFichet from "@/assets/partners/fichet.png";
-import logoMultlock from "@/assets/partners/multlock.png";
-import logoAssa from "@/assets/partners/assa.jpg";
-import logoIllico from "@/assets/partners/illico.png";
-import logoDormakaba from "@/assets/partners/dormakaba.png";
-import logoIseo from "@/assets/partners/iseo.png";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
