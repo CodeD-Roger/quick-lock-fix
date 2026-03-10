@@ -272,55 +272,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ─── PARTNERS MARQUEE ─── */}
-      <section className="section-light py-14 md:py-16 overflow-hidden">
-        <div className="container max-w-6xl mx-auto px-4 mb-8">
-          <p className="text-center text-sm font-semibold tracking-widest uppercase" style={{ color: 'hsl(var(--section-muted))' }}>
-            Nos marques <span className="text-gradient-gold">partenaires</span>
-          </p>
-        </div>
-        <div className="relative">
-          {/* Fade edges */}
-          <div className="absolute inset-y-0 left-0 w-24 md:w-40 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
-          <div className="absolute inset-y-0 right-0 w-24 md:w-40 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
-          <div className="marquee-track">
-            {[...Array(2)].map((_, setIdx) => (
-              <div key={setIdx} className="flex items-center gap-16 px-8">
-                {[
-                  { src: logoAllianz, alt: "Allianz" },
-                  { src: logoCreditMutuel, alt: "Crédit Mutuel" },
-                  { src: logoAxa, alt: "AXA" },
-                  { src: logoGroupama, alt: "Groupama" },
-                  { src: logoMma, alt: "MMA" },
-                  { src: logoMaif, alt: "MAIF" },
-                  { src: logoSchlage, alt: "Schlage" },
-                  { src: logoLaperche, alt: "Laperche" },
-                  { src: logoEvva, alt: "EVVA" },
-                  { src: logoMedeco, alt: "Medeco" },
-                  { src: logoCisa, alt: "CISA" },
-                  { src: logoYale, alt: "Yale" },
-                  { src: logoVachette, alt: "Vachette" },
-                  { src: logoAbus, alt: "ABUS" },
-                  { src: logoFichet, alt: "Fichet" },
-                  { src: logoMultlock, alt: "Mul-T-Lock" },
-                  { src: logoAssa, alt: "ASSA ABLOY" },
-                  { src: logoIllico, alt: "Illico Serrurier" },
-                  { src: logoDormakaba, alt: "Dormakaba" },
-                  { src: logoIseo, alt: "ISEO" },
-                ].map((brand) => (
-                  <div
-                    key={`${setIdx}-${brand.alt}`}
-                    className="flex items-center justify-center h-16 px-6 min-w-[160px] select-none"
-                  >
-                    <img src={brand.src} alt={brand.alt} className="h-12 w-auto object-contain transition-all duration-300 opacity-80 hover:opacity-100" />
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ─── SERVICES SECTION ─── */}
       <section ref={servicesRef} className="section-light-alt py-20 md:py-28">
         <div className="container max-w-6xl mx-auto px-4">
