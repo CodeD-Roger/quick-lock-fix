@@ -4,47 +4,47 @@ export const colmarData: VilleData = {
   nom: "Colmar",
   slug: "serrurier-colmar",
   codePostal: "68000",
-  population: "70 000",
+  population: "68 700",
   departement: "Haut-Rhin (68)",
   region: "Alsace",
   metaTitle: "Serrurier Colmar (68000) – Urgence 24h/7j | Albert Serrurerie",
-  metaDescription: "Serrurier à Colmar disponible 24h/24. Ouverture de porte, changement de serrure, porte blindée. Intervention en 30 min. Devis gratuit. Appelez maintenant.",
+  metaDescription: "Serrurier à Colmar disponible 24h/24 et 7j/7. Ouverture de porte, serrures alsaciennes anciennes, porte blindée. Intervention en 30 min. Devis gratuit. 03 74 47 47 93.",
   h1: "Serrurier à Colmar (68000) — Urgence 24h/24, 7j/7",
 
   quartiers: [
-    "Centre historique", "Petite Venise", "Ladhof", "Maraîchers",
-    "Saint-Joseph", "Europe", "Florimont", "Mittelharth",
-    "Ouest", "Sud", "Cavalerie", "Saint-Antoine"
+    "Centre historique", "Petite Venise", "Gare", "Vieux-Colmar",
+    "Lauch", "Logelbach", "Quartier des Tanneurs", "Saint-Joseph",
+    "Europe", "Cavalerie", "Florimont"
   ],
 
   interventions: [
     {
       titre: "Ouverture de porte",
-      description: "Porte claquée ou verrouillée, nous intervenons sans dégât en moins de 30 minutes à Colmar.",
+      description: "Porte claquée, clé perdue ou serrure bloquée à Colmar ? Intervention sans dégât en moins de 30 minutes, centre historique inclus.",
       slug: "ouverture-de-porte",
       icon: "DoorOpen",
     },
     {
-      titre: "Changement de serrure",
-      description: "Remplacement de tout type de serrure : cylindre européen, multipoints, serrure en applique à Colmar.",
+      titre: "Serrure alsacienne ancienne",
+      description: "Spécialistes des serrures sur portes anciennes en bois massif, colombages et immeubles classés du patrimoine colmarien.",
       slug: "changement-de-serrure",
       icon: "KeyRound",
     },
     {
       titre: "Porte blindée",
-      description: "Pose de portes blindées certifiées A2P pour sécuriser votre domicile à Colmar.",
+      description: "Pose de portes blindées certifiées A2P compatibles avec les cadres anciens des appartements et maisons de Colmar.",
       slug: "porte-blindee",
       icon: "Shield",
     },
     {
       titre: "Mise en sécurité après cambriolage",
-      description: "Intervention d'urgence pour sécuriser votre logement après une effraction à Colmar.",
+      description: "Intervention d'urgence 24h/24 pour sécuriser votre logement ou commerce après une effraction à Colmar.",
       slug: "mise-en-securite-apres-cambriolage",
       icon: "ShieldAlert",
     },
     {
       titre: "Cylindre haute sécurité",
-      description: "Installation de cylindres certifiés haute sécurité : Mul-T-Lock, Fichet, Vachette à Colmar.",
+      description: "Installation de cylindres certifiés haute sécurité adaptés aux portes modernes et historiques : Mul-T-Lock, Fichet, Vachette.",
       slug: "cylindre-haute-securite",
       icon: "Lock",
     },
@@ -64,68 +64,62 @@ export const colmarData: VilleData = {
   faq: [
     {
       question: "Quel est le délai d'intervention d'un serrurier à Colmar ?",
-      answer: "Notre délai moyen d'intervention à Colmar est de 20 à 30 minutes, quel que soit le quartier. Que vous soyez dans le centre historique, à Ladhof, aux Maraîchers ou dans le quartier Europe, un technicien de proximité est disponible pour intervenir rapidement. Nous disposons de serruriers répartis stratégiquement sur l'agglomération colmarienne pour garantir cette réactivité, y compris la nuit et les jours fériés.",
+      answer: "Notre délai moyen d'intervention à Colmar est de 20 à 30 minutes, quel que soit le quartier. Que vous soyez en plein centre historique, dans le quartier de la Gare, à Logelbach ou au quartier Europe, un technicien disponible interviendra rapidement. Nos serruriers sont positionnés stratégiquement dans l'agglomération colmarienne pour garantir cette réactivité à toute heure, y compris la nuit, les week-ends et les jours fériés.",
     },
     {
       question: "Combien coûte l'ouverture d'une porte à Colmar ?",
-      answer: "Le tarif d'une ouverture de porte à Colmar dépend du type de serrure. Pour une serrure simple (1 point), le tarif commence à 89€ TTC. Pour une serrure 3 points, comptez à partir de 130€ TTC. L'ouverture d'une porte blindée débute à 180€ TTC. Un devis précis et gratuit vous est systématiquement communiqué par téléphone avant toute intervention, sans engagement de votre part.",
+      answer: "Le tarif d'une ouverture de porte à Colmar varie selon le type de serrure. Pour une serrure simple à 1 point, le tarif commence à 89€ TTC. Pour une serrure 3 points, comptez à partir de 130€ TTC. Pour une porte blindée, le tarif débute à 180€ TTC. Attention : les bâtiments anciens du centre historique de Colmar peuvent nécessiter un outillage spécifique selon l'état et le modèle de la serrure. Un devis précis et gratuit vous est communiqué par téléphone avant toute intervention.",
     },
     {
-      question: "Intervenez-vous la nuit à Colmar ?",
-      answer: "Oui, Albert Serrurerie intervient 24 heures sur 24, 7 jours sur 7 à Colmar et dans tout le Haut-Rhin. Les urgences de serrurerie ne respectent pas les horaires de bureau : porte claquée à 3h du matin, effraction un dimanche, clé cassée un jour férié… Nous répondons à chaque appel sans exception. Aucun supplément caché n'est appliqué, les tarifs annoncés sont les tarifs facturés.",
+      question: "Êtes-vous disponible pendant le marché de Noël de Colmar ?",
+      answer: "Absolument. Albert Serrurerie est disponible 365 jours par an, 24 heures sur 24, y compris pendant toute la durée du marché de Noël de Colmar — l'un des plus fréquentés d'Europe avec plus de 2 millions de visiteurs chaque année. Cette période engendre une activité intense dans tout le centre-ville et une forte demande en serrurerie d'urgence. Nos équipes sont en effectif renforcé pendant les marchés de Noël pour garantir des délais d'intervention inférieurs à 30 minutes même dans la zone piétonne.",
     },
     {
-      question: "Couvrez-vous tous les quartiers de Colmar ?",
-      answer: "Absolument. Nous intervenons dans tous les quartiers de Colmar sans exception : centre historique, Petite Venise, Ladhof, Maraîchers, Saint-Joseph, Europe, Florimont, Mittelharth, Ouest, Sud, Cavalerie et Saint-Antoine. Nous couvrons également les communes limitrophes comme Horbourg-Wihr, Wintzenheim, Ingersheim, Turckheim et Houssen.",
+      question: "Intervenez-vous dans le quartier de la Petite Venise à Colmar ?",
+      answer: "Oui, nous intervenons régulièrement dans le quartier de la Petite Venise, l'un des secteurs les plus caractéristiques du patrimoine colmarien. Ce quartier longeant la Lauch est composé de maisons alsaciennes du XVIIe et XVIIIe siècles dont les portes en bois massif sont souvent équipées de serrures traditionnelles ou de modèles anciens qui demandent une expertise particulière. Nos techniciens maîtrisent ces spécificités et interviennent en prenant soin du bâti ancien, sans causer de dégâts au cadre ni aux boiseries.",
     },
     {
-      question: "Comment éviter les arnaques de serrurier à Colmar ?",
-      answer: "Pour éviter les arnaques, plusieurs réflexes s'imposent. Exigez toujours un devis détaillé avant le début des travaux. Vérifiez que le serrurier est inscrit à la Chambre des Métiers d'Alsace et qu'il dispose d'un numéro SIRET vérifiable. Méfiez-vous des tarifs anormalement bas au téléphone qui explosent une fois sur place. Chez Albert Serrurerie, nous affichons nos tarifs publiquement, nous fournissons un devis gratuit avant chaque intervention et nous ne commençons jamais les travaux sans votre accord écrit.",
+      question: "Pouvez-vous changer une serrure sur une ancienne porte alsacienne à Colmar ?",
+      answer: "Oui, c'est l'une de nos spécialités. Colmar compte un parc immobilier ancien exceptionnel — centre historique classé, maisons à colombages, immeubles XIXe et début XXe — dont les portes sont souvent équipées de serrures obsolètes, de cylindres non normalisés ou de systèmes à gorge d'un autre âge. Nos techniciens disposent d'un stock de pièces pour ces configurations atypiques et savent adapter des cylindres modernes haute sécurité (européen 30+10, 45+5) à des gâches et entrées anciennes. Nous préservons l'esthétique de votre porte tout en rehaussant significativement son niveau de sécurité.",
     },
     {
-      question: "Acceptez-vous les remboursements assurance habitation à Colmar ?",
-      answer: "Oui, nous travaillons régulièrement avec les assurances habitation (Groupama, Crédit Mutuel, MMA, AXA, Allianz, MAIF…). Après chaque intervention, nous vous remettons une facture détaillée conforme aux exigences des compagnies d'assurance, incluant le descriptif précis des travaux réalisés, les références des pièces installées et les photos si nécessaire. Ce document vous permet d'obtenir un remboursement rapide auprès de votre assureur.",
+      question: "Intervenez-vous à Horbourg-Wihr depuis Colmar ?",
+      answer: "Oui, nous couvrons Horbourg-Wihr (68180) au même titre que les quartiers de Colmar, avec un délai d'intervention identique de 20 à 30 minutes. Commune limitrophe de Colmar sur la rive droite de l'Ill, Horbourg-Wihr fait partie intégrante de notre zone d'intervention principale. Nous couvrons également l'ensemble des communes de l'agglomération colmarienne : Wintzenheim, Wittelsheim, Turckheim, Ribeauvillé, Guebwiller et les villages du vignoble alsacien environnant.",
     },
     {
-      question: "Faut-il une pièce d'identité pour une ouverture de porte à Colmar ?",
-      answer: "Oui, c'est une obligation légale. Pour toute ouverture de porte, nous demandons obligatoirement une pièce d'identité en cours de validité (carte d'identité, passeport ou titre de séjour) ainsi qu'un justificatif de domicile (quittance de loyer, facture EDF, avis d'imposition). Cette vérification protège les occupants légitimes du logement. En cas de locataire sans justificatif sur place, nous pouvons contacter le propriétaire ou le bailleur pour confirmation.",
+      question: "Votre facture est-elle reconnue pour un remboursement assurance habitation à Colmar ?",
+      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des compagnies d'assurance. Ce document inclut : la description précise des travaux réalisés, les références des pièces posées (marque, modèle, certification A2P le cas échéant), le montant TTC ventilé, ainsi que nos coordonnées complètes et notre numéro SIRET. Nous travaillons régulièrement avec les principaux assureurs présents à Colmar : Crédit Mutuel, Groupama Alsace, MMA, AXA, Allianz, MAIF, MACIF, GMF. Sur demande, nous pouvons également établir un rapport d'intervention détaillé pour les dossiers de sinistre.",
     },
     {
-      question: "Proposez-vous des portes blindées à Colmar ?",
-      answer: "Oui, nous proposons une gamme complète de portes blindées certifiées A2P (BP1, BP2, BP3) adaptées aux appartements et maisons de Colmar. L'installation est réalisée par nos techniciens qualifiés, généralement en une demi-journée. Les tarifs débutent à 890€ TTC pose comprise pour un bloc-porte blindé d'entrée de gamme. Nous proposons également le blindage de porte existante, une solution plus économique à partir de 490€ TTC.",
+      question: "Peut-on installer une porte blindée dans un appartement ancien à Colmar ?",
+      answer: "Oui, et c'est même fortement recommandé dans les immeubles anciens du centre de Colmar dont les portes d'entrée d'origine offrent souvent une résistance insuffisante face aux effractions modernes. Nos techniciens réalisent des audits de faisabilité gratuits pour évaluer la configuration de votre entrée (dimensions du baie, nature des murs, type de huisserie). Nous proposons des blocs-portes blindés certifiés A2P BP1, BP2 et BP3, disponibles dans des finitions qui respectent le caractère de l'immeuble. Pour les bâtiments soumis à des règles patrimoniales ou des règlements de copropriété, nous accompagnons les démarches de validation architecturale.",
     },
   ],
 
   villesVoisines: [
-    { nom: "Horbourg-Wihr", cp: "68180", slug: "serrurier-horbourg-wihr" },
     { nom: "Wintzenheim", cp: "68920", slug: "serrurier-wintzenheim" },
-    { nom: "Ingersheim", cp: "68040", slug: "serrurier-ingersheim" },
+    { nom: "Wittelsheim", cp: "68310", slug: "serrurier-wittelsheim" },
+    { nom: "Guebwiller", cp: "68500", slug: "serrurier-guebwiller" },
+    { nom: "Ribeauvillé", cp: "68150", slug: "serrurier-ribeauville" },
     { nom: "Turckheim", cp: "68230", slug: "serrurier-turckheim" },
-    { nom: "Houssen", cp: "68125", slug: "serrurier-houssen" },
-    { nom: "Sainte-Croix-en-Plaine", cp: "68127", slug: "serrurier-sainte-croix-en-plaine" },
+    { nom: "Horbourg-Wihr", cp: "68180", slug: "serrurier-horbourg-wihr" },
   ],
 
-  seoBlock1: `Colmar, préfecture du Haut-Rhin et capitale des vins d'Alsace, compte plus de 70 000 habitants au cœur d'une agglomération de 130 000 personnes. Cette ville au patrimoine architectural exceptionnel, célèbre pour sa Petite Venise et ses maisons à colombages, abrite un centre historique dense où les besoins en serrurerie sont permanents.
+  seoBlock1: `Colmar, préfecture du Haut-Rhin et capitale mondiale des vins d'Alsace, est une ville d'exception qui accueille chaque année plus de 4 millions de visiteurs venus admirer ses ruelles médiévales, ses maisons à colombages multicolores et son célèbre quartier de la Petite Venise. Avec 68 700 habitants et un centre historique entièrement classé, Colmar présente des caractéristiques uniques en matière de serrurerie urbaine.
 
-Albert Serrurerie est votre serrurier de confiance à Colmar. Nous intervenons dans l'ensemble de l'agglomération colmarienne, du centre historique aux quartiers résidentiels de Ladhof, en passant par les Maraîchers, Saint-Joseph, le quartier Europe, Florimont, Mittelharth, les secteurs Ouest et Sud, la Cavalerie et Saint-Antoine.
+Albert Serrurerie intervient dans l'ensemble de l'agglomération colmarienne : du cœur du centre historique aux rues de Vieux-Colmar, de la Petite Venise et du Quartier des Tanneurs aux quartiers résidentiels de Logelbach, Lauch, Saint-Joseph, du quartier Europe, de la Cavalerie, de Florimont et du secteur de la Gare. Chaque technicien connaît la géographie des ruelles piétonnes, les contraintes de circulation du cœur de ville et les spécificités architecturales du patrimoine colmarien.
 
-Nos techniciens qualifiés sont disponibles 24 heures sur 24, 7 jours sur 7, pour répondre à toutes vos urgences de serrurerie. Porte claquée en sortant de votre appartement dans le centre historique ? Clé perdue après une visite au Musée Unterlinden ? Tentative d'effraction dans votre maison à Ladhof en pleine nuit ? Nous intervenons systématiquement en moins de 30 minutes, quel que soit le quartier de Colmar.
+Ce que distingue Colmar d'autres villes alsaciennes, c'est la concentration exceptionnelle de bâtiments anciens en plein cœur de l'habitat quotidien. Contrairement aux secteurs patrimoniaux muséifiés, le centre historique de Colmar est vivant : des milliers de Colmariens y habitent dans des appartements dont les portes en chêne massif, les serrures à mortaise du XIXe siècle ou les cylindres d'époque nécessitent un savoir-faire que seuls des serruriers expérimentés maîtrisent. Un cylindre européen standard ne s'adapte pas toujours à l'entrée d'une maison à colombages du XVIIe siècle : nos techniciens disposent des outils et du stock de pièces adaptés pour ces configurations atypiques.
 
-Notre connaissance approfondie de la ville nous permet d'optimiser nos trajets et de vous garantir les meilleurs délais d'intervention. Chaque technicien dispose d'un véhicule entièrement équipé avec le matériel nécessaire pour traiter 95% des situations sur place, sans avoir à revenir chercher des pièces. Cette organisation logistique nous distingue des dépanneurs occasionnels et garantit une intervention complète dès le premier passage.
+Nos équipes sont disponibles 24 heures sur 24, 7 jours sur 7, pour répondre à toutes vos situations d'urgence à Colmar. Que vous ayez claqué votre porte en sortant de votre appartement rue des Marchands, cassé votre clé dans la serrure de votre maison à Logelbach, ou constaté une tentative d'effraction sur votre commerce de la Grand'Rue — nous intervenons en moins de 30 minutes, même en zone piétonne. Chaque véhicule est entièrement équipé pour traiter 95% des situations sur place sans déplacement complémentaire.`,
 
-Que vous soyez propriétaire, locataire, syndic de copropriété ou gérant de commerce à Colmar, nous adaptons notre intervention à votre situation. Les résidents des immeubles anciens du centre historique comme les habitants des pavillons de Ladhof ou des résidences récentes du quartier Europe bénéficient du même niveau de service et des mêmes tarifs transparents. La densité du bâti ancien colmarien, avec ses portes d'entrée en bois massif et ses serrures traditionnelles, requiert un savoir-faire spécifique que nos artisans maîtrisent parfaitement.`,
+  seoBlock2: `Ce qui distingue Albert Serrurerie à Colmar, c'est avant tout une expertise technique adaptée au patrimoine bâti exceptionnel de la préfecture du Haut-Rhin. Intervenir sur les serrures d'un immeuble haussmannien du quartier de la Gare, d'une maison renaissance de la Petite Venise ou d'un pavillon contemporain du quartier Europe ne s'improvise pas. Nos techniciens suivent des formations continues sur les serrures anciennes, les normes A2P et les techniques d'ouverture non destructive pour préserver l'intégrité des boiseries et des bâtis patrimoniaux.
 
-  seoBlock2: `Choisir Albert Serrurerie à Colmar, c'est faire le choix d'un artisan serrurier local, déclaré et inscrit à la Chambre des Métiers d'Alsace. Contrairement aux plateformes téléphoniques nationales qui sous-traitent à des intervenants non qualifiés, nous sommes une entreprise de proximité qui engage sa réputation sur chaque intervention.
+Colmar concentre une population touristique et saisonnière importante qui génère malheureusement des opportunités pour des sociétés de serrurerie frauduleuses. Pendant le marché de Noël, la saison viticole ou les grands week-ends, des plateformes téléphoniques nationales inondent les résultats de recherche en affichant des prix irréels — 49€, 59€ — pour facturer ensuite 600€ à 1 200€ une fois le technicien sur place. Ces pratiques ciblent particulièrement les personnes de passage, mais aussi les Colmariens en situation de détresse. Albert Serrurerie ne pratique pas ces méthodes : nos tarifs sont publics, notre devis est gratuit, et nous ne commençons aucun travail sans votre accord écrit sur le montant final.
 
-Le secteur de la serrurerie d'urgence à Colmar, comme dans toute la France, souffre malheureusement de pratiques frauduleuses. Des sociétés basées hors de la région annoncent des tarifs d'appel de 39€ ou 49€ au téléphone, pour facturer ensuite 500€ à 1 500€ une fois sur place, profitant de la vulnérabilité des personnes en situation d'urgence. Chez Albert Serrurerie, nous combattons ces pratiques par la transparence totale.
+Nous proposons également des audits de sécurité gratuits pour les propriétaires et gestionnaires d'immeubles du patrimoine colmarien. L'enjeu est double : sécuriser efficacement les accès sans dénaturer l'aspect architectural des bâtiments. Nous recommandons uniquement des solutions compatibles avec les contraintes des Architectes des Bâtiments de France lorsque les logements sont soumis à des servitudes patrimoniales.
 
-Nos tarifs sont publics et consultables sur ce site. Le devis est systématiquement communiqué avant le début des travaux, par téléphone pour les interventions standard, et sur place pour les cas complexes. Nous ne débutons jamais une intervention sans votre accord explicite sur le montant. Si le tarif ne vous convient pas, vous êtes libre de refuser sans frais — seul le déplacement de 49,50€ TTC reste dû si le technicien s'est déplacé.
-
-Nos certifications et partenariats témoignent de notre sérieux professionnel. Nous travaillons exclusivement avec des marques de serrurerie reconnues : Fichet, Vachette, Bricard, Mul-T-Lock, Mottura, Picard, ISEO. Chaque pièce installée est neuve, certifiée et couverte par la garantie fabricant. Nos interventions sont garanties et nous assurons un service après-vente réactif.
-
-Colmar, en tant que ville touristique majeure d'Alsace et carrefour économique du Haut-Rhin, connaît une activité soutenue toute l'année. Les marchés de Noël, les festivals, la saison viticole attirent des millions de visiteurs, ce qui génère des besoins spécifiques en sécurisation des commerces et des hébergements. Nous proposons des audits de sécurité gratuits pour évaluer la résistance de vos accès et vous recommander les améliorations pertinentes : serrures multipoints, cylindres haute sécurité, portes blindées certifiées A2P, cornières anti-pince, protège-cylindres.
-
-Faire appel à Albert Serrurerie, c'est la garantie d'un travail propre, durable et au juste prix. Plus de 2 500 interventions réalisées dans le Haut-Rhin, un taux de satisfaction client de 98%, et une note moyenne de 4.8/5 sur Google — notre réputation parle d'elle-même.`,
+Faire confiance à Albert Serrurerie à Colmar, c'est choisir un artisan de proximité déclaré à la Chambre des Métiers d'Alsace, qui utilise exclusivement des pièces neuves des marques Fichet, Vachette, Bricard, Mul-T-Lock, Mottura et ISEO — avec garantie fabricant sur chaque installation. Plus de 2 500 interventions réalisées dans le Haut-Rhin, 98% de satisfaction client, 4,8/5 sur Google : notre réputation est le reflet de notre exigence quotidienne.`,
 
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43000!2d7.35!3d48.08!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47916945e0f10d3d%3A0xa1bfb56e3e6e5e0!2sColmar!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr",
 };
