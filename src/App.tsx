@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import MentionsLegales from "./pages/MentionsLegales";
 import SerrurierMulhouse from "./pages/SerrurierMulhouse";
+import SerrurierColmar from "./pages/SerrurierColmar";
 import NotFound from "./pages/NotFound";
 import CookieBanner from "./components/CookieBanner";
 
