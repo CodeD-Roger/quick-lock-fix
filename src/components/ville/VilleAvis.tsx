@@ -1,22 +1,19 @@
 import { Star, Quote } from "lucide-react";
 import { VilleData } from "@/data/types";
 
-const placeholderReviews = [
+const reviewTemplates = [
   {
     name: "Marie L.",
-    quartier: "Rebberg",
     rating: 5,
     text: "Intervention rapide et professionnelle un dimanche soir. Le serrurier est arrivé en 25 minutes, a ouvert ma porte sans abîmer la serrure. Tarif annoncé respecté. Je recommande vivement.",
   },
   {
     name: "Thomas K.",
-    quartier: "Bourtzwiller",
     rating: 5,
     text: "Après un cambriolage, j'ai appelé Albert Serrurerie en pleine nuit. Le technicien a sécurisé ma porte et changé la serrure en moins d'une heure. Facture claire pour l'assurance. Merci.",
   },
   {
     name: "Sophie M.",
-    quartier: "Centre-ville",
     rating: 5,
     text: "Changement de cylindre sur une serrure 3 points, travail propre et rapide. Le technicien a pris le temps d'expliquer le fonctionnement du nouveau cylindre. Prix correct.",
   },
@@ -39,7 +36,7 @@ const VilleAvis = ({ data }: { data: VilleData }) => (
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        {placeholderReviews.map((review) => (
+        {reviewTemplates.map((review, i) => (
           <article
             key={review.name}
             className="bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-6 hover:shadow-[0_8px_30px_rgba(26,44,78,0.08)] transition-shadow"
@@ -49,11 +46,12 @@ const VilleAvis = ({ data }: { data: VilleData }) => (
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-[#1a2c4e] font-bold text-sm">{review.name}</p>
-                <p className="text-[#94a3b8] text-xs">{review.quartier}, {data.nom}</p>
+                {/* Quartier dynamique selon la ville */}
+                <p className="text-[#94a3b8] text-xs">{data.quartiers[i] ?? data.quartiers[0]}, {data.nom}</p>
               </div>
               <div className="flex gap-0.5">
-                {[...Array(review.rating)].map((_, i) => (
-                  <Star key={i} className="w-3.5 h-3.5 text-[#f97316] fill-[#f97316]" />
+                {[...Array(review.rating)].map((_, j) => (
+                  <Star key={j} className="w-3.5 h-3.5 text-[#f97316] fill-[#f97316]" />
                 ))}
               </div>
             </div>
