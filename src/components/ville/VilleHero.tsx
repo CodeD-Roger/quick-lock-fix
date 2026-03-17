@@ -2,8 +2,8 @@ import { Phone, Clock, Shield, Zap, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { VilleData } from "@/data/types";
 
-const PHONE = "[NUMÉRO]";
-const PHONE_LINK = "tel:[NUMÉRO]";
+const PHONE = "03 74 47 47 93";
+const PHONE_LINK = "tel:+33374474793";
 
 const VilleHero = ({ data }: { data: VilleData }) => (
   <section className="relative overflow-hidden" style={{ background: "linear-gradient(135deg, #1a2c4e 0%, #0f1d35 60%, #162847 100%)" }}>

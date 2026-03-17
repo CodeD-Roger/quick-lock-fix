@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import MentionsLegales from "./pages/MentionsLegales";
 import SerrurierMulhouse from "./pages/SerrurierMulhouse";
+import SerrurierColmar from "./pages/SerrurierColmar";
 import NotFound from "./pages/NotFound";
 import CookieBanner from "./components/CookieBanner";
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="/serrurier-mulhouse" element={<SerrurierMulhouse />} />
+          <Route path="/serrurier-colmar" element={<SerrurierColmar />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

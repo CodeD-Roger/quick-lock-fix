@@ -1,8 +1,8 @@
 import { Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const PHONE = "[NUMÉRO]";
-const PHONE_LINK = "tel:[NUMÉRO]";
+const PHONE = "03 74 47 47 93";
+const PHONE_LINK = "tel:+33374474793";
 
 const VilleFooter = () => (
   <footer className="bg-[#1a2c4e] py-10 pb-24 md:pb-10" role="contentinfo">

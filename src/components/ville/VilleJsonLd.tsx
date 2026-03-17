@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { VilleData } from "@/data/types";
 
-const PHONE = "[NUMÉRO]";
+const PHONE = "03 74 47 47 93";
 
 interface Props {
   data: VilleData;
