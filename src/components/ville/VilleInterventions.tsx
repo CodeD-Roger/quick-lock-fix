@@ -1,7 +1,7 @@
 import { DoorOpen, KeyRound, Shield, ShieldAlert, Lock, ArrowRight, Phone } from "lucide-react";
 import { VilleData } from "@/data/types";
 
-const PHONE_LINK = "tel:[NUMÉRO]";
+const PHONE_LINK = "tel:+33374474793";
 
 const iconMap: Record<string, React.FC<{ className?: string }>> = {
   DoorOpen, KeyRound, Shield, ShieldAlert, Lock,

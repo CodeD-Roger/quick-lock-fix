@@ -2,8 +2,8 @@ import { Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const PHONE = "[NUMÉRO]";
-const PHONE_LINK = "tel:[NUMÉRO]";
+const PHONE = "03 74 47 47 93";
+const PHONE_LINK = "tel:+33374474793";
 
 const VilleHeader = () => (
   <nav className="bg-white border-b border-[#e2e8f0] sticky top-0 z-40" aria-label="Navigation principale">

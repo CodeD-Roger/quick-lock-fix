@@ -1,7 +1,7 @@
 import { Phone } from "lucide-react";
 import { useEffect, useState } from "react";
 
-const PHONE_LINK = "tel:[NUMÉRO]";
+const PHONE_LINK = "tel:+33374474793";
 
 const VilleStickyCta = () => {
   const [visible, setVisible] = useState(true);

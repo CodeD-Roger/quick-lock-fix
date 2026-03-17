@@ -2,8 +2,8 @@ import { Phone, BadgeCheck, Zap, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { VilleData } from "@/data/types";
 
-const PHONE = "[NUMÉRO]";
-const PHONE_LINK = "tel:[NUMÉRO]";
+const PHONE = "03 74 47 47 93";
+const PHONE_LINK = "tel:+33374474793";
 
 const VilleCta = ({ data }: { data: VilleData }) => (
   <section className="py-20 md:py-28 relative overflow-hidden bg-[#1a2c4e]" aria-labelledby="cta-heading">
