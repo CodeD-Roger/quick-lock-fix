@@ -15,6 +15,16 @@ import SerrurierRixheim from "./pages/SerrurierRixheim";
 import SerrurierRiedisheim from "./pages/SerrurierRiedisheim";
 import SerrurierCernay from "./pages/SerrurierCernay";
 import SerrurierGuebwiller from "./pages/SerrurierGuebwiller";
+import SerrurierWittelsheim from "./pages/SerrurierWittelsheim";
+import SerrurierPfastatt from "./pages/SerrurierPfastatt";
+import SerrurierThann from "./pages/SerrurierThann";
+import SerrurierWintzenheim from "./pages/SerrurierWintzenheim";
+import SerrurierSoultzHautRhin from "./pages/SerrurierSoultzHautRhin";
+import SerrurierEnsisheim from "./pages/SerrurierEnsisheim";
+import SerrurierHuningue from "./pages/SerrurierHuningue";
+import SerrurierLutterbach from "./pages/SerrurierLutterbach";
+import SerrurierBrunstattDidenheim from "./pages/SerrurierBrunstattDidenheim";
+import SerrurierAltkirch from "./pages/SerrurierAltkirch";
 import NotFound from "./pages/NotFound";
 import CookieBanner from "./components/CookieBanner";
 
@@ -40,6 +50,16 @@ const App = () => (
           <Route path="/serrurier-riedisheim" element={<SerrurierRiedisheim />} />
           <Route path="/serrurier-cernay" element={<SerrurierCernay />} />
           <Route path="/serrurier-guebwiller" element={<SerrurierGuebwiller />} />
+          <Route path="/serrurier-wittelsheim" element={<SerrurierWittelsheim />} />
+          <Route path="/serrurier-pfastatt" element={<SerrurierPfastatt />} />
+          <Route path="/serrurier-thann" element={<SerrurierThann />} />
+          <Route path="/serrurier-wintzenheim" element={<SerrurierWintzenheim />} />
+          <Route path="/serrurier-soultz-haut-rhin" element={<SerrurierSoultzHautRhin />} />
+          <Route path="/serrurier-ensisheim" element={<SerrurierEnsisheim />} />
+          <Route path="/serrurier-huningue" element={<SerrurierHuningue />} />
+          <Route path="/serrurier-lutterbach" element={<SerrurierLutterbach />} />
+          <Route path="/serrurier-brunstatt-didenheim" element={<SerrurierBrunstattDidenheim />} />
+          <Route path="/serrurier-altkirch" element={<SerrurierAltkirch />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
