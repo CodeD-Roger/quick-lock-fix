@@ -87,11 +87,11 @@ export const husserenWesserlingData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Husseren-Wesserling ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Refusez tout serrurier qui exige un paiement avant d'avoir terminé son travail ou qui n'accepte que le liquide sans reçu. Les arnaques fonctionnent souvent ainsi : un prix bas annoncé, une facture imposée une fois la porte ouverte. Chez Albert Serrurerie, vous payez uniquement après l'intervention terminée, sur présentation d'une facture détaillée.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs, incluant le descriptif des travaux, les références des pièces posées et notre numéro SIRET.",
+      answer: "Oui. Vérifiez cependant les conditions de votre contrat : la plupart prévoient une franchise (généralement 75€ à 200€) et un plafond de remboursement selon les garanties souscrites. Notre facture détaillée — descriptif, références des pièces et numéro SIRET — est reconnue sans exception par toutes les compagnies d'assurance habitation en France.",
     },
   ],
 

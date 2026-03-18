@@ -87,11 +87,11 @@ export const ferretteData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Ferrette ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Demandez le numéro SIRET du serrurier et vérifiez qu'il est actif sur le site officiel sirene.fr. Un artisan qui refuse de communiquer son SIRET ou son inscription à la Chambre des Métiers est un signal d'alarme. Chez Albert Serrurerie, nos coordonnées complètes figurent sur chaque devis et chaque facture.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs, incluant le descriptif des travaux, les références des pièces posées et notre numéro SIRET.",
+      answer: "Oui. Le délai habituel de remboursement varie de 15 à 45 jours selon votre assureur. Pour optimiser ce délai, déclarez le sinistre le jour même et joignez notre facture à votre courrier. Elle inclut toutes les informations requises : nature des travaux, références des pièces posées, montant TTC et notre numéro SIRET.",
     },
   ],
 

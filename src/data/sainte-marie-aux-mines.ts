@@ -91,7 +91,7 @@ export const sainteMarieMinesData: VilleData = {
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs, incluant le descriptif des travaux, les références des pièces posées et notre numéro SIRET.",
+      answer: "Oui, et nous vous recommandons de prévenir votre assureur avant l'intervention si la situation le permet — certains contrats imposent un accord préalable pour les urgences. Quoi qu'il en soit, notre facture est conforme à toutes les exigences des compagnies d'assurance habitation opérant en France, avec descriptif, références et numéro SIRET.",
     },
   ],
 

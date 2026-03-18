@@ -91,7 +91,7 @@ export const blotzheimData: VilleData = {
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation à Blotzheim ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs. Ce document inclut le descriptif des travaux, les références des pièces posées et notre numéro SIRET. Nous travaillons avec les principaux assureurs : Crédit Mutuel, Groupama, AXA, Allianz, MAIF, MMA.",
+      answer: "Oui. Vérifiez cependant les conditions de votre contrat : la plupart prévoient une franchise (généralement 75€ à 200€) et un plafond de remboursement selon les garanties souscrites. Notre facture détaillée — descriptif, références des pièces et numéro SIRET — est reconnue sans exception par toutes les compagnies d'assurance habitation en France.",
     },
   ],
 

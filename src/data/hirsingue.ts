@@ -87,11 +87,11 @@ export const hirsingueData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Hirsingue ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Un serrurier honnête affiche ses tarifs publiquement et sans ambiguïté. Chez Albert Serrurerie, nos prix sont consultables sur ce site : ce que vous lisez est exactement ce que vous payez. Aucun tarif variable selon l'urgence apparente ou la détresse de la situation — nos tarifs sont fixes et annoncés avant l'intervention.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs, incluant le descriptif des travaux, les références des pièces posées et notre numéro SIRET.",
+      answer: "Oui, et nous vous recommandons de prévenir votre assureur avant l'intervention si la situation le permet — certains contrats imposent un accord préalable pour les urgences. Quoi qu'il en soit, notre facture est conforme à toutes les exigences des compagnies d'assurance habitation opérant en France, avec descriptif, références et numéro SIRET.",
     },
   ],
 

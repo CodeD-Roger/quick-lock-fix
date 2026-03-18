@@ -87,7 +87,7 @@ export const pulversheimData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Pulversheim ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers d'Alsace. Méfiez-vous des tarifs anormalement bas. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Demandez le numéro SIRET du serrurier et vérifiez qu'il est actif sur le site officiel sirene.fr. Un artisan qui refuse de communiquer son SIRET ou son inscription à la Chambre des Métiers est un signal d'alarme. Chez Albert Serrurerie, nos coordonnées complètes figurent sur chaque devis et chaque facture.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation à Pulversheim ?",

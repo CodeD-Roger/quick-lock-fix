@@ -87,11 +87,11 @@ export const turckheimData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Turckheim ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers d'Alsace. Méfiez-vous des tarifs trop bas. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Prenez 60 secondes pour vérifier les avis Google d'un serrurier avant de l'appeler en urgence : les prestataires peu scrupuleux accumulent les témoignages négatifs facilement repérables. Albert Serrurerie affiche une note de 4,8/5 sur plus de 127 avis vérifiés. Nos tarifs sont publics et notre devis est transmis avant toute intervention.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation à Turckheim ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs. Ce document inclut le descriptif des travaux, les références des pièces posées et notre numéro SIRET. Nous travaillons avec les principaux assureurs : Crédit Mutuel, Groupama, AXA, Allianz, MAIF, MMA.",
+      answer: "Oui. Pour accélérer votre remboursement, prenez des photos de l'état de votre serrure avant et après notre intervention. Joignez ces photos et notre facture détaillée à votre dossier assurance. Notre numéro SIRET et le descriptif précis des travaux figurent obligatoirement sur chaque facture que nous remettons.",
     },
   ],
 

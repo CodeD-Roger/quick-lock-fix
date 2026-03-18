@@ -91,7 +91,7 @@ export const munsterData: VilleData = {
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation à Munster ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs. Ce document inclut le descriptif précis des travaux, les références des pièces posées et notre numéro SIRET. Nous travaillons avec les principaux assureurs : Crédit Mutuel, Groupama, AXA, Allianz, MAIF, MMA.",
+      answer: "Oui. Le délai habituel de remboursement varie de 15 à 45 jours selon votre assureur. Pour optimiser ce délai, déclarez le sinistre le jour même et joignez notre facture à votre courrier. Elle inclut toutes les informations requises : nature des travaux, références des pièces posées, montant TTC et notre numéro SIRET.",
     },
   ],
 

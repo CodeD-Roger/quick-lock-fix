@@ -87,11 +87,11 @@ export const landserData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Landser ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Méfiez-vous des sites affichant des tarifs d'appel irréels (39€, 49€) : une fois le technicien sur place, la facture monte à 400€, 800€ ou plus avec des arguments impossibles à contester une fois la porte ouverte. Chez Albert Serrurerie, les tarifs indiqués sur ce site et annoncés au téléphone sont les tarifs définitifs. Pas de surprise, pas de surprime.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs, incluant le descriptif des travaux, les références des pièces posées et notre numéro SIRET.",
+      answer: "Oui. Nous remettons après chaque intervention une facture détaillée contenant tous les éléments exigés par les assureurs : descriptif complet des travaux, références précises des pièces posées, montant TTC ventilé et notre numéro SIRET. Ce document est suffisant pour constituer votre dossier de remboursement.",
     },
   ],
 

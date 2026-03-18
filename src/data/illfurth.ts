@@ -87,11 +87,11 @@ export const illfurthData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Illfurth ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Prenez 60 secondes pour vérifier les avis Google d'un serrurier avant de l'appeler en urgence : les prestataires peu scrupuleux accumulent les témoignages négatifs facilement repérables. Albert Serrurerie affiche une note de 4,8/5 sur plus de 127 avis vérifiés. Nos tarifs sont publics et notre devis est transmis avant toute intervention.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs, incluant le descriptif des travaux, les références des pièces posées et notre numéro SIRET.",
+      answer: "Oui, et en cas de cambriolage, pensez à déposer plainte dans les 24 heures : le récépissé de dépôt de plainte est systématiquement exigé par les assureurs pour les remboursements liés à une effraction. Notre facture de mise en sécurité, avec descriptif complet et numéro SIRET, constitue la pièce justificative de serrurerie pour votre dossier sinistre.",
     },
   ],
 

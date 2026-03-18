@@ -87,11 +87,11 @@ export const danneMarieData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Dannemarie ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Pour éviter les arnaques, exigez impérativement un devis écrit et signé avant tout début de travaux — c'est une obligation légale en France depuis 2015. Chez Albert Serrurerie, le devis est gratuit, détaillé et transmis avant l'intervention. Aucun travail ne commence sans votre accord explicite.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs, incluant le descriptif des travaux, les références des pièces posées et notre numéro SIRET.",
+      answer: "Oui. En plus de la facture standard, nous établissons sur demande un rapport d'intervention décrivant les circonstances, l'état du matériel avant et après intervention, et les travaux réalisés. Ce document complet accélère le traitement de votre dossier et facilite le remboursement par votre assureur habitation.",
     },
   ],
 

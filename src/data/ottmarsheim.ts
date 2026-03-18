@@ -87,7 +87,7 @@ export const ottmarsheimData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Ottmarsheim ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers d'Alsace. Méfiez-vous des prix trop bas. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Méfiez-vous des serruriers qui refusent de donner leur tarif par téléphone avant de se déplacer. Tout artisan sérieux est capable de vous communiquer une fourchette de prix selon la nature de votre problème. Chez Albert Serrurerie, nous indiquons nos tarifs dès le premier appel et les confirmons par un devis écrit avant intervention.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation à Ottmarsheim ?",

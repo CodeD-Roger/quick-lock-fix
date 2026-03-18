@@ -87,11 +87,11 @@ export const bollwillerData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Bollwiller ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers d'Alsace. Méfiez-vous des prix trop bas. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Prenez 60 secondes pour vérifier les avis Google d'un serrurier avant de l'appeler en urgence : les prestataires peu scrupuleux accumulent les témoignages négatifs facilement repérables. Albert Serrurerie affiche une note de 4,8/5 sur plus de 127 avis vérifiés. Nos tarifs sont publics et notre devis est transmis avant toute intervention.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs, incluant le descriptif des travaux, les références des pièces posées et notre numéro SIRET.",
+      answer: "Oui. Nous remettons après chaque intervention une facture détaillée contenant tous les éléments exigés par les assureurs : descriptif complet des travaux, références précises des pièces posées, montant TTC ventilé et notre numéro SIRET. Ce document est suffisant pour constituer votre dossier de remboursement.",
     },
   ],
 

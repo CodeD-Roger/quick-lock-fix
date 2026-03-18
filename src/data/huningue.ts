@@ -91,7 +91,7 @@ export const huningueData: VilleData = {
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs. Ce document inclut le descriptif précis des travaux, les références des pièces posées et notre numéro SIRET. Nous travaillons avec les principaux assureurs : Crédit Mutuel, Groupama, AXA, Allianz, MAIF, MMA.",
+      answer: "Oui. En plus de la facture standard, nous établissons sur demande un rapport d'intervention décrivant les circonstances, l'état du matériel avant et après intervention, et les travaux réalisés. Ce document complet accélère le traitement de votre dossier et facilite le remboursement par votre assureur habitation.",
     },
   ],
 

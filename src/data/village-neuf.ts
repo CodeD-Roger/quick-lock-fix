@@ -87,11 +87,11 @@ export const villageNeufData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Village-Neuf ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers d'Alsace. Méfiez-vous des prix trop bas. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Pour vous protéger des arnaques, trois règles simples : exigez un devis avant l'intervention, vérifiez que le serrurier possède un numéro SIRET actif, et ne payez qu'après les travaux terminés sur présentation d'une facture. Chez Albert Serrurerie, ces trois conditions sont respectées à chaque intervention.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation à Village-Neuf ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs, incluant le descriptif des travaux, les références des pièces posées et notre numéro SIRET. Nous travaillons avec tous les grands assureurs du Haut-Rhin.",
+      answer: "Oui. Nous travaillons régulièrement avec toutes les principales compagnies d'assurance habitation (AXA, Groupama, Crédit Mutuel, MAIF, MMA, Allianz). Notre facture inclut systématiquement le descriptif précis des travaux, les références des pièces posées et notre numéro SIRET. Elle est acceptée sans difficulté par l'ensemble de ces assureurs.",
     },
   ],
 

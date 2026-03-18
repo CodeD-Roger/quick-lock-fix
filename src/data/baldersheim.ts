@@ -87,7 +87,7 @@ export const baldersheimData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Baldersheim ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers d'Alsace. Méfiez-vous des tarifs trop bas. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Un serrurier honnête affiche ses tarifs publiquement et sans ambiguïté. Chez Albert Serrurerie, nos prix sont consultables sur ce site : ce que vous lisez est exactement ce que vous payez. Aucun tarif variable selon l'urgence apparente ou la détresse de la situation — nos tarifs sont fixes et annoncés avant l'intervention.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",

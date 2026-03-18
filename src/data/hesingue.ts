@@ -87,11 +87,11 @@ export const hesingueData: VilleData = {
     },
     {
       question: "Comment éviter les arnaques de serrurier à Hésingue ?",
-      answer: "Exigez toujours un devis détaillé avant le début des travaux. Vérifiez l'inscription à la Chambre des Métiers d'Alsace. Méfiez-vous des prix trop bas. Chez Albert Serrurerie, nos tarifs sont publics, le devis est gratuit, et nous ne commençons jamais les travaux sans votre accord.",
+      answer: "Méfiez-vous des sites affichant des tarifs d'appel irréels (39€, 49€) : une fois le technicien sur place, la facture monte à 400€, 800€ ou plus avec des arguments impossibles à contester une fois la porte ouverte. Chez Albert Serrurerie, les tarifs indiqués sur ce site et annoncés au téléphone sont les tarifs définitifs. Pas de surprise, pas de surprime.",
     },
     {
       question: "Votre facture est-elle reconnue par les assurances habitation ?",
-      answer: "Oui, chaque intervention donne lieu à une facture détaillée conforme aux exigences des assureurs. Ce document inclut le descriptif des travaux, les références des pièces posées et notre numéro SIRET. Nous travaillons avec les principaux assureurs : Crédit Mutuel, Groupama, AXA, Allianz, MAIF, MMA.",
+      answer: "Oui, et en cas de cambriolage, pensez à déposer plainte dans les 24 heures : le récépissé de dépôt de plainte est systématiquement exigé par les assureurs pour les remboursements liés à une effraction. Notre facture de mise en sécurité, avec descriptif complet et numéro SIRET, constitue la pièce justificative de serrurerie pour votre dossier sinistre.",
     },
   ],
 
