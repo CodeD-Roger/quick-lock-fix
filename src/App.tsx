@@ -55,6 +55,11 @@ import SerrurierHirsingue from "./pages/SerrurierHirsingue";
 import SerrurierIllfurth from "./pages/SerrurierIllfurth";
 import SerrurierLandser from "./pages/SerrurierLandser";
 import SerrurierZimmersheim from "./pages/SerrurierZimmersheim";
+import CommentOuvrirPorteClaquee from "./pages/CommentOuvrirPorteClaquee";
+import CommentChangerCylindre from "./pages/CommentChangerCylindre";
+import CommentChoisirSerrure3Points from "./pages/CommentChoisirSerrure3Points";
+import CommentSecuriserPorteCambriolage from "./pages/CommentSecuriserPorteCambriolage";
+import CommentReconnaitreSerrurier from "./pages/CommentReconnaitreSerrurier";
 import NotFound from "./pages/NotFound";
 import CookieBanner from "./components/CookieBanner";
 
@@ -120,6 +125,11 @@ const App = () => (
           <Route path="/serrurier-illfurth" element={<SerrurierIllfurth />} />
           <Route path="/serrurier-landser" element={<SerrurierLandser />} />
           <Route path="/serrurier-zimmersheim" element={<SerrurierZimmersheim />} />
+          <Route path="/comment-ouvrir-porte-claquee" element={<CommentOuvrirPorteClaquee />} />
+          <Route path="/comment-changer-cylindre-serrure" element={<CommentChangerCylindre />} />
+          <Route path="/comment-choisir-serrure-3-points" element={<CommentChoisirSerrure3Points />} />
+          <Route path="/comment-securiser-porte-apres-cambriolage" element={<CommentSecuriserPorteCambriolage />} />
+          <Route path="/comment-reconnaitre-serrurier-serieux" element={<CommentReconnaitreSerrurier />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
